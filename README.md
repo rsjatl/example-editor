@@ -27,9 +27,9 @@ You can ignore this for now by clicking X to close the window in Development Mod
 
 > #### 2. Runtime warning: Uncaught Error: [React Intl] Could not find required `intl` object. <IntlProvider> needs to exist in the component ancestry.
 
-You can ignore this if you're choosing not to set up your own IntlProvider around the Editor (it is not a blocking runtime error).
+You can ignore this if you're choosing not to set up your own IntlProvider around the Editor (it is not a blocking runtime error and should also be resolved in a future release).
 
-If you want to remove the error, you will need to setup an IntlProvider like below:
+If you want to avoid the error, you will need to setup an IntlProvider like below:
 
 ```
 import { IntlProvider } from 'react-intl-next';
